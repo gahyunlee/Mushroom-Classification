@@ -21,7 +21,7 @@ library(klaR) # for k-mode function/LDA partition map
 library(pROC) # for ROC curve 
 library(randomForest) # for randomForest
 
-#load the mushrooms data
+#load the mushroom data
 getwd()
 setwd("/Users/Sophie/Downloads/BA with R") #this part changes regarding your OS
 mushrooms <- read.csv('mushrooms.csv')
